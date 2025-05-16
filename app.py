@@ -4,7 +4,7 @@ import numpy as np
 
 # Load historical data from Google Sheets
 CUSTOMER_DATA_URL = "https://docs.google.com/spreadsheets/d/1cCjvCal_UaPfWVN5YUhrryQBTmOMEXBfK_sb55X0pJQ/export?format=csv&gid=0"
-JEEPNEY_DATA_URL = "https://docs.google.com/spreadsheets/d/1cCjvCal_UaPfWVN5YUhrryQBTmOMEXBfK_sb55X0pJQ/edit?usp=sharing"
+JEEPNEY_DATA_URL = "https://docs.google.com/spreadsheets/d/1cCjvCal_UaPfWVN5YUhrryQBTmOMEXBfK_sb55X0pJQ/export?format=csv&gid=0"
 
 # Function to convert time strings (MM:SS) to minutes as floats
 def convert_to_minutes(time_str):
